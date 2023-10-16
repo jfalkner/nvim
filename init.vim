@@ -7,6 +7,8 @@
 " everything does.
 "
 " Checkout the GitHub repository for more docs and videos of how stuff works.
+"
+" Reload any changes here by restarting nvim or `:source $MYVIMRC`
 
 " Basic Stuff
 
@@ -18,6 +20,16 @@ set cc=80
 
 " Show all whitespaces as a character
 set list
+
+" Middle-click will paste. This is by default on
+set mouse=v
+
+" Highlight search results and incrementally search. This is by default on
+set hlsearch
+set incsearch
+
+" Ignore case sensitivity. For example, when searching.
+set ignorecase
 
 
 " File-specific config -- settings to change based on file type
