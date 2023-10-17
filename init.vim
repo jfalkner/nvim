@@ -51,3 +51,10 @@ set ignorecase
   \ set tabstop=2 |
   \ set softtabstop=2
 
+" HTML files will have the following config used
+:au FileType html
+  \ set cc=80 |
+  \ set expandtab |
+  \ set shiftwidth=2 |
+  \ set tabstop=2 |
+  \ set softtabstop=2
