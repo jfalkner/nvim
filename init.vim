@@ -15,8 +15,8 @@
 " Show line numbers
 set number
 
-" Add a 80 character line limit
-set cc=80
+" Add a 120 character line limit
+set cc=120
 
 " Show all whitespaces as a character
 set list
@@ -41,11 +41,11 @@ set ignorecase
 " Python files will have the following config used
 :au FileType python
   " nvim defaults to use PEP8's: https://neovim.io/doc/user/filetype.html#ft-python-plugin
-  \ set cc=80
+  \ set cc=120
 
 " JavaScript files will have the following config used
 :au FileType javascript
-  \ set cc=80 |
+  \ set cc=120 |
   \ set expandtab |
   \ set shiftwidth=2 |
   \ set tabstop=2 |
@@ -53,8 +53,16 @@ set ignorecase
 
 " HTML files will have the following config used
 :au FileType html
-  \ set cc=80 |
+  \ set cc=120 |
   \ set expandtab |
   \ set shiftwidth=2 |
   \ set tabstop=2 |
   \ set softtabstop=2
+
+" Plugins using vim-plug: https://github.com/junegunn/vim-plug
+call plug#begin()
+Plug 'neovim/nvim-lspconfig'
+call plug#end()
+
+" Use rust-analyzer with NeoVim's LSP config
+lua require'lspconfig'.rust_analyzer.setup({})
