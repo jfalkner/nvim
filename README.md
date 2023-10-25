@@ -19,4 +19,5 @@ wget https://raw.githubusercontent.com/jfalkner/nvim/main/init.vim /.config/nvim
 
 There many other helpful similar resources as this. Here are some links.
 
+* [Neovim](https://neovim.io/)
 * [VIM Bootstrap](https://github.com/editor-bootstrap/vim-bootstrap)
