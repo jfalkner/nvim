@@ -15,6 +15,10 @@ Copy the init.vim file to your `~/.config/nvim/` directory then start nvim.
 wget https://raw.githubusercontent.com/jfalkner/nvim/main/init.vim /.config/nvim/
 ```
 
+### Requirements
+
+You need to have Neoivm installed. Then install rust-analyzer with `rustup component add rust-analyzer`.
+
 ### Helpful Links
 
 There many other helpful similar resources as this. Here are some links.
