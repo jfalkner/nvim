@@ -25,3 +25,4 @@ There many other helpful similar resources as this. Here are some links.
 
 * [Neovim](https://neovim.io/)
 * [VIM Bootstrap](https://github.com/editor-bootstrap/vim-bootstrap)
+* [nvim-cmp](https://github.com/hrsh7th/nvim-cmp#recommended-configuration) - LSP completion engine
